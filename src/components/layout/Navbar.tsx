@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import {
   Search,
@@ -6,16 +7,24 @@ import {
   User,
 } from "lucide-react";
 
+
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur-xl">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
-
         {/* Logo */}
-        <Link href="/">
-          <h1 className="text-3xl font-black tracking-wider transition-all duration-300 hover:opacity-80">
-            DRIFTZ
-          </h1>
+        <Link
+          href="/"
+          className="transition-opacity duration-300 hover:opacity-80"
+        >
+          <Image
+            src="/driftz-logo.png"
+            alt="DRIFTZ"
+            width={180}
+            height={60}
+            priority
+            className="h-auto w-[140px] md:w-[180px]"
+          />
         </Link>
 
         {/* Navigation */}
@@ -59,7 +68,6 @@ export default function Navbar() {
             <User size={18} />
           </button>
         </div>
-
       </div>
     </header>
   );
