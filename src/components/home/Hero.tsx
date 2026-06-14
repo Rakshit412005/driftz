@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.06),transparent_28%),radial-gradient(circle_at_top_right,rgba(212,255,63,0.06),transparent_22%),radial-gradient(circle_at_bottom,rgba(255,255,255,0.04),transparent_28%)]" />
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:120px_120px] opacity-[0.05]" />
 
-      <div className="relative mx-auto grid min-h-[calc(100vh-5rem)] max-w-7xl items-center gap-14 px-6 py-14 lg:grid-cols-[1.05fr_0.95fr] lg:px-8">
+      <div className="relative mx-auto grid min-h-[calc(100vh-5rem)] max-w-[1600px] items-center gap-20 px-10 py-14 lg:grid-cols-[1fr_1fr]">
         {/* LEFT: Text */}
         <motion.div
           initial={{ opacity: 0, y: 24 }}
@@ -27,7 +27,7 @@ export default function Hero() {
             Premium Streetwear
           </p>
 
-          <h1 className="max-w-xl text-[clamp(4rem,9vw,7.75rem)] font-black uppercase leading-[0.9] tracking-[-0.06em] text-white">
+          <h1 className="max-w-xl text-[clamp(5rem,11vw,9rem)] font-black uppercase leading-[0.85] tracking-[-0.08em] text-white">
             DRIFTZ
           </h1>
 
