@@ -24,12 +24,12 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_35%,rgba(255,255,255,0.06),transparent_18%),radial-gradient(circle_at_78%_20%,rgba(255,255,255,0.05),transparent_14%)]" />
 
       {/* Content */}
-      <div className="relative mx-auto flex min-h-[calc(100vh-5rem)] max-w-[1600px] items-center px-6 py-12 lg:px-10">
+      <div className="relative min-h-[calc(100vh-5rem)]">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="max-w-2xl"
+          className="absolute left-[6vw] top-1/2 z-20 max-w-[650px] -translate-y-1/2"
         >
           <div className="mb-5 inline-flex w-fit items-center gap-3 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[11px] uppercase tracking-[0.36em] text-zinc-300 backdrop-blur-md">
             <span className="h-2 w-2 rounded-full bg-white" />
@@ -40,23 +40,24 @@ export default function Hero() {
             Built For The After-Hours
           </p>
 
-          <h1 className="max-w-xl text-[clamp(4.8rem,10vw,9rem)] font-black uppercase leading-[0.84] tracking-[-0.08em] text-white drop-shadow-[0_0_28px_rgba(255,255,255,0.08)]">
+          <h1 className="max-w-[560px] text-[clamp(4.8rem,10vw,9rem)] font-black uppercase leading-[0.84] tracking-[-0.08em] text-white drop-shadow-[0_0_28px_rgba(255,255,255,0.08)]">
             DRIFTZ
           </h1>
 
-          <div className="mt-6">
+          <div className="mt-8">
             <h2 className="text-[1.6rem] font-semibold uppercase leading-[1.1] tracking-[0.08em] text-white md:text-[2rem]">
               Move Different.
               <br />
               Wear Different.
             </h2>
 
-            <p className="mt-5 max-w-2xl text-[1rem] leading-8 text-zinc-300 md:text-[1.05rem]">
-              Premium oversized streetwear designed for those who lead, not follow.
+            <p className="mt-5 max-w-none text-[0.98rem] leading-8 text-zinc-300 md:text-[1.05rem] lg:whitespace-nowrap">
+              Premium oversized streetwear designed for those who lead, not
+              follow.
             </p>
           </div>
 
-          <div className="mt-10 flex flex-wrap gap-4">
+          <div className="mt-12 flex flex-wrap gap-5">
             <Link
               href="/shop"
               className="inline-flex min-w-[178px] items-center justify-center rounded-full bg-[linear-gradient(135deg,rgba(255,255,255,0.97),rgba(214,219,225,0.88))] px-7 py-3 text-sm font-extrabold uppercase tracking-[0.26em] !text-black shadow-[0_16px_50px_rgba(255,255,255,0.10)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_20px_60px_rgba(255,255,255,0.16)]"
