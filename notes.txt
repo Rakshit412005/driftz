@@ -1,0 +1,3 @@
+hero model ki image ache se poori nahi aarhi t-shirt ka design dikh rha h but neeche ka text content ni dikh rha image mai
+driftz ka new logo banana hai simple just like the text in model image
+thoda current main screen ko adjust.resize karna hai taaki poora dekhne ke liye neeche bahut thoda sa bhi scroll na karna pade , itna part to poora ek frame mai aajana chaiye that is type strip tak ek frame/screen mai dikhna chaiye scroll karne ki zarurat ni padni chaiye.
